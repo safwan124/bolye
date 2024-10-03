@@ -1,0 +1,395 @@
+/* Center the brand name Boyle on one line and LifeSciences on the next */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif !important
+}
+.navbar-brand {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 1.2;
+  }
+  
+  .brand-line-1 {
+    font-size: 4.5rem; /* Bigger size for "Boyle" */
+    font-weight: 200;
+  }
+  
+  .brand-line-2 {
+    font-size: 2rem; /* Smaller size for "LifeSciences" */
+    font-weight: 100;
+  }
+  
+  /* Style the navigation bar */
+  .navigation-bar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .corouselImg {
+    width: 100%;
+    height: auto;
+    filter: blur(4px);
+  }
+
+  .discover-boyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative; /* Required for the V shape */
+  }
+  
+  .discover-boyle h2 {
+    margin: 0;
+    position: relative;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000; /* Customize the line color */
+    border: none;
+  }
+
+  .discover-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .offer-text {
+    line-height: 1.6;
+    color: #333;
+    text-align: center
+  }
+
+  .bold-text {
+    font-weight: bold;
+    color: #000;
+  }
+
+  .service-card {
+    border-radius: 20px !important;
+    background-color: rgb(246, 236, 237) !important;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .service-card .read-more {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .service-card .read-more:hover {
+    text-decoration: underline;
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: pink;
+    border-radius: 75% 25% 0 70px; /* Half-circle effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Service image with cover fit */
+  .half-circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .fooText {
+    letter-spacing: 0.1cm;
+  }
+
+  .CatText {
+    letter-spacing: 0.1cm;
+  }
+
+  .category-item {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    border-radius: 5px;
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: 300px;
+    filter: blur(2px);
+    transition: transform 0.3s ease;
+  }
+  
+  .category-item:hover img {
+    transform: scale(1.05);
+  }
+  
+  .category-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0); /* semi-transparent overlay */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .category-overlay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Statistics Section */
+.statistics-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+}
+
+.stat-item small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Product Cycle Section */
+.product-cycle-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.product-cycle img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.cycle-item {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  min-width: 180px;
+  flex: 1;
+  max-width: 220px;
+}
+
+.cycle-item p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.quote {
+  background-color: #100f0f;
+  color: #fff;
+}
+
+.email-form {
+  display: flex;
+  align-items: start;
+  margin-top: 10px;
+}
+
+.email-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Footer Section */
+.footer-section {
+  position: relative;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/010/198/997/small/white-dots-world-map-vector.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  opacity: 0.4;
+}
+
+
+.footer-section a {
+  color: #ffc107; /* Golden color */
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #ffc107; /* Hover color */
+}
+
+.company-info h3 {
+  color: #ffc107;
+  margin-bottom: 20px;
+}
+
+.company-info p {
+  color: #ffc107;
+}
+
+.footer-links h4 {
+  color: #ffc107;
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #ffc107;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #ffc107;
+}
+
+.social-certifications .social-links p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffc107;
+}
+
+.certifications p {
+  margin-bottom: 10px;
+  font-size: xx-large;
+}
+
+.cert-logo {
+  max-width: 80px;
+  margin-left: 15px;
+}
+
+.footer-bottom {
+  background-color: #000;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Container for products */
+/* Minimal CSS */
+.product-image {
+  height: 250px;
+  object-fit: contain;
+}
+
+
+.product-detail-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-description {
+  margin-top: 20px;
+}
+
+  
+    /* Adjust the alignment for mobile and larger screens */
+    @media (min-width: 768px) {
+      .navbar-brand {
+        text-align: left;
+      }
+    
+      .ml-auto {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+      }
+      .discover-title {
+        font-size: 28px;
+      }
+      
+      .offer-title {
+        font-size: 20px;
+      }
+      
+      .offer-text {
+        font-size: 16px;
+      }
+
+      .stat-item h3 {
+        font-size: 1.5rem;
+      }
+    
+      .cycle-item {
+        min-width: 140px;
+        max-width: 180px;
+      }
+
+      .product-detail-info {
+        margin-top: 20px;
+      }
+    }
+
+  
