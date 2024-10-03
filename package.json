@@ -1,6 +1,7 @@
 {
   "name": "boyle",
-  "private": true,
+  "homepage": "https://safwan124.github.io/boyle/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
