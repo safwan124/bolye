@@ -1,6 +1,8 @@
 /* Center the brand name Boyle on one line and LifeSciences on the next */
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif !important
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  background-color: #121212 !important;
+  color: white !important;
 }
 .navbar-brand {
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
@@ -8,6 +10,7 @@ body {
     font-weight: bold;
     text-align: right;
     line-height: 1.2;
+    color: #fff !important;
   }
   
   .brand-line-1 {
@@ -24,6 +27,10 @@ body {
   .navigation-bar {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .nav-link {
+    color: white !important;
   }
   
   .corouselImg {
@@ -321,8 +328,6 @@ body {
 }
 
 .footer-bottom {
-  background-color: #000;
-  padding: 15px 0;
   color: #fff;
   font-size: 0.9rem;
 }
@@ -376,6 +381,7 @@ body {
       
       .offer-text {
         font-size: 16px;
+        color: #fff !important;
       }
 
       .stat-item h3 {
