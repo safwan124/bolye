@@ -11,7 +11,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://images.healthshots.com/healthshots/en/uploads/2023/06/15175906/Korean-skincare-1.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Face Care"
               className="img-fluid"
             />
@@ -23,7 +23,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://n.nordstrommedia.com/it/e6e4aad7-b933-4503-a8da-e5855e01e73a.jpeg?h=900&w=750"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Body Care"
               className="img-fluid"
             />
@@ -35,7 +35,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://paulaschoice.sg/cdn/shop/files/16_1000x@3x.jpg?v=1674183738"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Eye Care"
               className="img-fluid"
             />
@@ -47,7 +47,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://media.istockphoto.com/id/1357956448/photo/stylish-female-model-posing-against-beige-wall.jpg?s=612x612&w=0&k=20&c=m3uiwWE8TAek9lmpkwo3LMlleHZeu31n070_RytoNwg="
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Lip Care"
               className="img-fluid"
             />
@@ -63,7 +63,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://images.healthshots.com/healthshots/en/uploads/2022/12/20170127/hair-1.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Hair Care"
               className="img-fluid"
             />
@@ -75,7 +75,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://xendurance.com/cdn/shop/articles/Mens_Skincare.jpg?v=1719563309&width=1500"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Men Skin Care"
               className="img-fluid"
             />
@@ -87,7 +87,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://www.momjunction.com/wp-content/uploads/2015/08/7-Useful-Tips-To-Take-Care-Of-Your-Two-Month-Old-Baby-1.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Baby & Kids Care"
               className="img-fluid"
             />
@@ -99,7 +99,7 @@ const Shop = () => {
         <Col xs={6} md={3} className="mb-4">
           <div className="category-item">
             <img
-              src="https://sneakpeektest.com/wp-content/uploads/2023/11/Pregnancy-Safe-Skin-Care-Products.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6gTr3Cve0x0kmBLDfLB1LIV3i_wlCnJKBi5z7o6-jkFczN5UzFDvf9KOOuj_s6zhqbU&usqp=CAU"
               alt="Pregnancy Skin Care"
               className="img-fluid"
             />

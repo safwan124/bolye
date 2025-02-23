@@ -10,8 +10,8 @@ const Navigation = () => {
           {/* First Line: Boyle */}
           <Col xs={8} md={3} className="text-left">
             <Navbar.Brand as={Link} to="/" className="navbar-brand">
-              <span className="brand-line-1">Boyle</span><br />
-              <span className="brand-line-2">LifeSciences</span>
+              <span className="brand-line-1">Florishh</span><br />
+              {/* <span className="brand-line-2">LifeSciences</span> */}
             </Navbar.Brand>
           </Col>
 

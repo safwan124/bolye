@@ -20,7 +20,7 @@ const Services = () => {
             <div className="image-container">
               <Card.Img
                 variant="top"
-                src="https://www.invisionpharma.com/cdn/2023/06/cosmetics-private-label-invision-pharma-jpg.webp"
+                src="https://i.pinimg.com/736x/72/35/d4/7235d4b32ad9cff8134be9bb4022a799.jpg"
                 className="half-circle-image"
               />
             </div>
@@ -38,7 +38,7 @@ const Services = () => {
               <Button variant="link" className="read-more">Read More</Button>
             </Card.Body>
             <div className="image-container">
-            <Card.Img variant="bottom" src="https://www.hcpwellness.in/wp-content/uploads/2024/02/skincare.jpg" />
+            <Card.Img variant="bottom" src="https://i.pinimg.com/736x/72/35/d4/7235d4b32ad9cff8134be9bb4022a799.jpg" />
             </div>
           </Card>
         </Col>
@@ -54,7 +54,7 @@ const Services = () => {
               <Button variant="link" className="read-more">Read More</Button>
             </Card.Body>
             <div className="image-container">
-            <Card.Img variant="bottom" src="https://cosmeticlabscanada.com/wp-content/uploads/2023/02/AdobeStock_195438547_4033ce97-68d4-4570-9d39-fac5d21c1fd1.webp" />
+            <Card.Img variant="bottom" src="https://i.pinimg.com/736x/72/35/d4/7235d4b32ad9cff8134be9bb4022a799.jpg" />
             </div>
           </Card>
         </Col>
@@ -70,7 +70,7 @@ const Services = () => {
               <Button variant="link" className="read-more">Read More</Button>
             </Card.Body>
             <div className="image-container">
-            <Card.Img variant="bottom" src="https://cdn.shopify.com/s/files/1/0657/8569/2375/files/custom-product-packaging-Blanka-boxes_sml.jpg?v=1679332692" />
+            <Card.Img variant="bottom" src="https://i.pinimg.com/736x/72/35/d4/7235d4b32ad9cff8134be9bb4022a799.jpg" />
             </div>
           </Card>
         </Col>

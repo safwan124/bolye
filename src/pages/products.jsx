@@ -9,7 +9,7 @@ export const productData = [
     name: "Olaplex No. 4 Bond Maintenance Shampoo",
     price: "₹1700",
     rating: 2201,
-    imageUrl: "https://www.jiomart.com/images/product/original/rvsxnalh9i/grolet-sampoo-for-anti-hair-breakage-silicone-free-unisex-300-ml-product-images-orvsxnalh9i-p593929316-0-202209220301.jpg?im=Resize=(420,420)"
+    imageUrl: "https://i.pinimg.com/736x/72/35/d4/7235d4b32ad9cff8134be9bb4022a799.jpg"
   },
   {
     id: 2,
