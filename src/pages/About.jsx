@@ -9,7 +9,7 @@ const AboutUs = () => {
         <Col>
           <div className="discover-boyle mt-3">
             <hr className="line" />
-            <h2>Discover Florishh</h2>
+            <h2>Discover Chand Flower & Decroations</h2>
             <hr className="line" />
           </div>
           <h4 className="offer-title mt-4">WHAT WE OFFER:</h4>
@@ -19,8 +19,8 @@ const AboutUs = () => {
       {/* Row for the content */}
       <Row>
         <Col className="mx-auto">
-          <p className="offer-text" >
-          At <span className="bold-text offer-text">Florishh</span>, we offer innovative cosmetic solutions tailored to your brand's needs. Our range includes premium skincare, hair care, and beauty products, all crafted with high quality, ethically sourced ingredients. We provide comprehensive private labeling services to help you create a unique brand identity. Our R&D team is dedicated to developing cutting edge formulations that meet the latest beauty trends. We ensure stringent quality control to deliver safe, effective products. Partner with us for customized manufacturing solutions that elevate your brand in the competitive cosmetic market.
+          <p className="" >
+          At <span className="bold-text">Chand Flower & Decorations (CFD)</span>,  we believe that every celebration deserves to be unforgettable. With a passion for floral artistry and event aesthetics, CFD has emerged as a trusted partner in transforming ordinary moments into extraordinary experiences. We specialize in end-to-end event decoration services, tailored to bring elegance, charm, and vibrance to every occasion. Whether you're planning a wedding, birthday party, corporate event, or an intimate gathering, our creative team ensures every detail reflects your vision with style and precision.
           </p>
         </Col>
       </Row>

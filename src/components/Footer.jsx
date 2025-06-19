@@ -2,61 +2,43 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faWhatsapp, faLinkedinIn, faTwitter, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
     <footer className="footer-section">
       <Container>
-        <Row className="footer-content">
+        <Row className="footer-content text-center">
           {/* Company Info */}
-          <Col md={6} className="navbar-brand text-center mb-5">
-          <span className="brand-line-1">Boyle</span><br />
-              <span className="brand-line-2">LifeSciences</span>
+          <Col md={5}>
+              <img
+                src='./Chand_Flower___Decorations_Logo-removebg-preview.png'
+                className="foo-image"
+              />
           </Col>
-          <Col md={3} className="company-info text-center">
-          <h3>Contact-Us</h3>
+          <Col md={3} className="company-info mt-3">
+          {/* <h3>Contact-Us</h3> */}
             <p>
-              Boyle Life Sciences Pvt. Ltd.<br />
-              NO: 73, Paper Mill Road,<br />
-              Pillayarkuppam,<br />
-              Puducherry - 607402
+              Chand Flower & Decroations.<br />
+              NO: 73, Syed Abdul Rahman Road,<br />
+              RajivNagar 2nd Stage,<br />
+              Mysuru - 570019
             </p>
           </Col>
-
-          {/* Useful Links */}
-          <Col md={3} className="footer-links text-center">
-            <ul className="list-unstyled">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-            </ul>
-          </Col>
-        </Row>
-
-        {/* Social and Certifications */}
-        <Row className="social-certifications py-5">
-          <Col md={6} className="social-links text-center">
+          <Col md={3} className="social-links text-center mt-3">
             <p>Follow Us</p>
-            <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
-            <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
-          </Col>
-          <Col md={6} className="certifications text-center">
-            <p>Certifications</p>
-            <img src="path-to-sgs-logo.png" alt="SGS Certification" className="cert-logo" />
-            <img src="path-to-fda-logo.png" alt="FDA Certification" className="cert-logo" />
+            <a href="https://wa.me/916362785854" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faWhatsapp} /></a>
+            <a href="https://www.instagram.com/syedshoaib6362/"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.youtube.com/@Syedvlogs_2030"><FontAwesomeIcon icon={faYoutube} /></a>
           </Col>
         </Row>
       </Container>
 
       {/* Footer Bottom */}
       <div className="footer-bottom text-center">
-        <p>Designed by Dealit Solutions</p>
+      <p>@ 2025 cfdmysuru.com. All rights reserved.</p>
+        <p>Designed by dealitsolutions.com</p>
       </div>
     </footer>
   );

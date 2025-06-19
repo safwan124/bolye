@@ -1,44 +1,42 @@
-import { Navbar, Nav, Container, Row, Col, Form, FormControl } from 'react-bootstrap';
+import { useState } from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../styles/styles.css';
 
 const Navigation = () => {
-  return (
-    <Navbar expand="lg" className="navigation-bar mt-5">
-      <Container>
-        <Row className="align-items-end w-100">
-          {/* First Line: Boyle */}
-          <Col xs={8} md={3} className="text-left">
-            <Navbar.Brand as={Link} to="/" className="navbar-brand">
-              <span className="brand-line-1">Florishh</span><br />
-              {/* <span className="brand-line-2">LifeSciences</span> */}
-            </Navbar.Brand>
-          </Col>
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-          {/* Navigation Links */}
-          <Col xs={4} md={9} className="text-end">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-              <Nav className="ml-auto">
-                <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
-                <Nav.Link as={Link} to="/shop-now">Shop Now</Nav.Link>
-                <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
-                {/* <Nav.Link as={Link} to="/login">Login / Register</Nav.Link> */}
-              </Nav>
-              
-              {/* Search Bar */}
-              {/* <Form className="d-flex ml-3">
-                <FormControl
-                  type="search"
-                  placeholder="Search"
-                  className="mr-2"
-                  aria-label="Search"
-                />
-              </Form> */}
-            </Navbar.Collapse>
-          </Col>
-        </Row>
+  const handleNavToggle = () => {
+    setIsNavCollapsed(!isNavCollapsed);
+  };
+
+  const closeNav = () => {
+    setIsNavCollapsed(true);
+  };
+
+  return (
+    <Navbar expand="lg" className="navigation-bar mt-3" expanded={!isNavCollapsed}>
+      <Container className="flex-column align-items-stretch">
+        
+        {/* Top Row: Toggle Left, Brand Right */}
+        <div className="d-flex justify-content-between align-items-center w-100 mb-2">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleNavToggle} />
+
+          <Navbar.Brand as={Link} to="/" className="mx-auto text-center logo-name">
+            CHAND FLOWER & DECORATIONS
+          </Navbar.Brand>
+        </div>
+
+        {/* Nav Links Centered Below */}
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mx-auto flex-column flex-lg-row gap-0 gap-lg-5 text-center" onClick={closeNav}>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/about-us">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/shop-now">Shop Now</Nav.Link>
+            <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+
       </Container>
     </Navbar>
   );

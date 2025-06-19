@@ -4,7 +4,7 @@ import '../styles/styles.css';
 import CustomCarousel from '../components/Carousel';
 import AboutUs from './About';
 import Shop from './Shop';
-import Process from './Process';
+// import Process from './Process';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <CustomCarousel />
       <AboutUs />
       <Shop />
-      <Process />
+      {/* <Process /> */}
     </Container>
   );
 };
