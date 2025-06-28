@@ -3,9 +3,7 @@ import '../styles/styles.css';
 
 const CustomCarousel = () => {
   return (
-    // <Container>
-      <Row>
-        <Col sm={6}>
+    <Container>
         <Carousel controls={false} indicators={false} interval={1000}>
             <Carousel.Item>
               <img
@@ -29,18 +27,23 @@ const CustomCarousel = () => {
                 className="corouselImg"
               />
             </Carousel.Item>
-          </Carousel>
-        </Col>
-        <Col sm={6}>
+          
+            <Carousel.Item>
               <img
-                src='./Chand_Flower___Decorations_Logo-removebg-preview.png'
-                className="half-image"
+                src="romantic-wedding-chair-decoration-with-floral-garland-removebg-preview.png"
+                alt="Second slide"
+                className="corouselImg"
               />
-        </Col>
-      </Row>
-      
-
-    // </ Container>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                src="Garland2-removebg-preview.png"
+                alt="Second slide"
+                className="corouselImg"
+              />
+            </Carousel.Item>
+          </Carousel>
+     </ Container>
   );
 };
 

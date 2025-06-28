@@ -29,7 +29,7 @@ const Footer = () => {
             <p>Follow Us</p>
             <a href="https://wa.me/916362785854" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} /></a>
-            <a href="https://www.instagram.com/syedshoaib6362/"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.instagram.com/chandflowersanddecorations"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.youtube.com/@Syedvlogs_2030"><FontAwesomeIcon icon={faYoutube} /></a>
           </Col>
         </Row>
